@@ -1,0 +1,1 @@
+let max_nat a b = if a >= 0 && b >= 0 then if a < b then b else a else failwith("Error: not natural numbers");
